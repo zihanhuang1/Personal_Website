@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Envelopment Analysis on Zihan Huang</title>
+    <link>https://zihanhuang1.github.io/Zihan_Academic_Website/tags/data-envelopment-analysis/</link>
+    <description>Recent content in Data Envelopment Analysis on Zihan Huang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 02 Dec 2023 11:15:58 -0400</lastBuildDate>
+    <atom:link href="https://zihanhuang1.github.io/Zihan_Academic_Website/tags/data-envelopment-analysis/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Project XII: Efficiency Analysis of English Premier League Players</title>
+      <link>https://zihanhuang1.github.io/Zihan_Academic_Website/post/project-12/</link>
+      <pubDate>Sat, 02 Dec 2023 11:15:58 -0400</pubDate>
+      <guid>https://zihanhuang1.github.io/Zihan_Academic_Website/post/project-12/</guid>
+      <description>Date: February - March 2023&#xA;This is a course project from my OPR-620 Operations Research I class, instructed by Dr. Hande Benson.&#xA;As a sports fan and particularly a fan for English Premier League, I&amp;rsquo;m impressed by the data analytics team at Brighton &amp;amp; Hove Albion F.C. that evaluate player stats and make transfer strategies.</description>
+    </item>
+    <item>
+      <title>Project XI: Graduate Datathon 2023 - Supply Chain and Distribution Network Analysis with Under Armour</title>
+      <link>https://zihanhuang1.github.io/Zihan_Academic_Website/post/project-11/</link>
+      <pubDate>Thu, 30 Nov 2023 11:15:58 -0400</pubDate>
+      <guid>https://zihanhuang1.github.io/Zihan_Academic_Website/post/project-11/</guid>
+      <description>Date: February 2023&#xA;Graduate &amp;lsquo;Datathon&amp;rsquo; is an annual, one-day event from LeBow College of business that partners with companies to solve their business questions through data analytics. The guest company for Datathon 2023 was Under Armour. Their business analytics group from Baltimore presented us with a</description>
+    </item>
+  </channel>
+</rss>

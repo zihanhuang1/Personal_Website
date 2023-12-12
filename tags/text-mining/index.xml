@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Text Mining on Zihan Huang</title>
+    <link>https://zihanhuang1.github.io/Zihan_Academic_Website/tags/text-mining/</link>
+    <description>Recent content in Text Mining on Zihan Huang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 14 Nov 2023 11:15:58 -0400</lastBuildDate>
+    <atom:link href="https://zihanhuang1.github.io/Zihan_Academic_Website/tags/text-mining/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Project III: Graduate Datathon 2022 - Text Mining and Sentiment Analysis for Twitter Texts</title>
+      <link>https://zihanhuang1.github.io/Zihan_Academic_Website/post/project-3/</link>
+      <pubDate>Tue, 14 Nov 2023 11:15:58 -0400</pubDate>
+      <guid>https://zihanhuang1.github.io/Zihan_Academic_Website/post/project-3/</guid>
+      <description>Date: February 2022&#xA;Graduate &amp;lsquo;Datathon&amp;rsquo; is an annual, one-day event from LeBow College of business that partners with companies to solve their business questions through data analytics. The guest company for Datathon 2022 was Harris Blitzer Sports &amp;amp; Entertainment, and their challenge for us was to analyze Twitter texts about New Jersey Devils from 2018 to 2020, give them a picture of what the fans are discussing on the social networks and their sentiment change through different time.</description>
+    </item>
+    <item>
+      <title>Project I: Text Mining on Harry Potter and the Deathly Hallows Part 2 Movie Script</title>
+      <link>https://zihanhuang1.github.io/Zihan_Academic_Website/post/project-1/</link>
+      <pubDate>Fri, 10 Nov 2023 11:15:58 -0400</pubDate>
+      <guid>https://zihanhuang1.github.io/Zihan_Academic_Website/post/project-1/</guid>
+      <description>Project Date: September 2021 - December 2021&#xA;Harry Potter and the Deathly Hallows Part 2 was the last episode of the legendary series. In this movie, Harry has finally grown into a steely lad on a mission to rid the world of evil, and the friends must search for the Horcruxes that keep the dastardly wizard immortal.&#xA;Our research objectives in the project included studying the overall sentimental change as the story develops, comparing the word and sentiment between the two centers of the story - Harry and Voldemort, comparing the sentiment between the movie and the book, analyzing through the movie reviews to find if the movie was too dark compared to previous series.</description>
+    </item>
+  </channel>
+</rss>

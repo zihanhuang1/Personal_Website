@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Project I: Text Mining on Harry Potter and the Deathly Hallows Part 2 Movie Script | Zihan Huang</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="Text Mining and Social Network Analysis on the last episode of Harry Potter Movie.">
+    <meta name="generator" content="Hugo 0.121.1">
+    
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+
+    
+<link rel="stylesheet" href="https://zihanhuang1.github.io/Zihan_Academic_Website/ananke/css/main.min.css" >
+
+
+
+    
+    
+    
+      
+
+    
+
+    
+    
+    <meta property="og:title" content="Project I: Text Mining on Harry Potter and the Deathly Hallows Part 2 Movie Script" />
+<meta property="og:description" content="Text Mining and Social Network Analysis on the last episode of Harry Potter Movie." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://zihanhuang1.github.io/Zihan_Academic_Website/post/project-1/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2023-11-10T11:15:58-04:00" />
+<meta property="article:modified_time" content="2023-11-10T11:15:58-04:00" />
+
+<meta itemprop="name" content="Project I: Text Mining on Harry Potter and the Deathly Hallows Part 2 Movie Script">
+<meta itemprop="description" content="Text Mining and Social Network Analysis on the last episode of Harry Potter Movie."><meta itemprop="datePublished" content="2023-11-10T11:15:58-04:00" />
+<meta itemprop="dateModified" content="2023-11-10T11:15:58-04:00" />
+<meta itemprop="wordCount" content="384">
+<meta itemprop="keywords" content="Text Mining,Social Network Analysis,Sentiment Analysis," /><meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Project I: Text Mining on Harry Potter and the Deathly Hallows Part 2 Movie Script"/>
+<meta name="twitter:description" content="Text Mining and Social Network Analysis on the last episode of Harry Potter Movie."/>
+
+	
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  
+  <header class="cover bg-top" style="background-image: url('https://zihanhuang1.github.io/Zihan_Academic_Website/images/Project1/hp.jpg');">
+    <div class="bg-black-60">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="https://zihanhuang1.github.io/Zihan_Academic_Website/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        Zihan Huang
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="https://zihanhuang1.github.io/Zihan_Academic_Website/about/" title="About page">
+              About
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="https://zihanhuang1.github.io/Zihan_Academic_Website/contact/" title="Contact page">
+              Contact
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="https://zihanhuang1.github.io/Zihan_Academic_Website/post/" title="Projects page">
+              Projects
+            </a>
+          </li>
+          
+        </ul>
+      
+      
+<div class="ananke-socials">
+  
+    
+    <a href="https://www.linkedin.com/in/zihan-huang-8018b622b/" target="_blank" rel="noopener" class="LinkedIn ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="LinkedIn link" aria-label="follow on LinkedIn——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+</div>
+
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv6 ph3 ph4-ns">
+        
+          <div class="f2 f1-l fw2 white-90 mb0 lh-title">Project I: Text Mining on Harry Potter and the Deathly Hallows Part 2 Movie Script</div>
+          
+            <div class="fw1 f5 f3-l white-80 measure-wide-l center lh-copy mt3 mb4">
+              Text Mining and Social Network Analysis on the last episode of Harry Potter Movie.
+            </div>
+          
+        
+      </div>
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked">
+          
+        PROJECTS
+      </aside>
+      
+
+
+
+
+
+
+
+
+
+
+  <div id="sharing" class="mt3 ananke-socials">
+    
+  </div>
+
+
+      <h1 class="f1 athelas mt3 mb1">Project I: Text Mining on Harry Potter and the Deathly Hallows Part 2 Movie Script</h1>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2023-11-10T11:15:58-04:00">November 10, 2023</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>Project Date: September 2021 - December 2021</p>
+<p>Harry Potter and the Deathly Hallows Part 2 was the last episode of the legendary series. In this movie, Harry has finally grown into a steely lad on a mission to rid the world of evil, and the friends must search for the Horcruxes that keep the dastardly wizard immortal.</p>
+<p>Our research objectives in the project included studying the overall sentimental change as the story develops, comparing the word and sentiment between the two centers of the story - Harry and Voldemort, comparing the sentiment between the movie and the book, analyzing through the movie reviews to find if the movie was too dark compared to previous series.</p>
+<p>As we formatted the script to excel sheets, we used packages <em>dplyr, tidyr, stringr</em> (to clean and format texts),  <em>wordcloud, wordcloud2</em> (to creat wordcloud), <em>tidytext</em> (for sentimental analysis) and <em>igraph</em> (for network analysis) in R to performed our analysis.</p>
+<figure><img src="https://zihanhuang1.github.io/Zihan_Academic_Website/images/Project1/socialnetwork.jpg"/>
+</figure>
+
+<p>Our Social Network map basically demonstrated the relationships between characters in the movie. The main characters, such as Harry, Ron, Hermione and Voldemort are usually in the center of one social circle. However, the map also has room to further improve, as some of the relationships are not accurate in the current map.</p>
+<p><figure><img src="https://zihanhuang1.github.io/Zihan_Academic_Website/images/Project1/contribution%20to%20sentiment%20for%20Harry.jpg"/>
+</figure>
+
+<figure><img src="https://zihanhuang1.github.io/Zihan_Academic_Website/images/Project1/contribution%20to%20sentiment%20for%20voldemort.jpg"/>
+</figure>
+</p>
+<p>Comparing Harry and Voldemort&rsquo;s narratives, we noticed that as the main character on the justice side, Harry also said a lot of negative words, but most of them were associated to destroying the Horcruxes and the dark lord himself. Also, Harry&rsquo;s narrative included more positive words compared to Voldemort.</p>
+<p><figure><img src="https://zihanhuang1.github.io/Zihan_Academic_Website/images/Project1/harry%20reveive%20count.png"/>
+</figure>
+
+<figure><img src="https://zihanhuang1.github.io/Zihan_Academic_Website/images/Project1/voldemort%20receive%20count.png"/>
+</figure>
+</p>
+<p>As for what&rsquo;s being said to both characters, we can see that Harry mostly received positive or neutral words, and what&rsquo;s being said most to Voldemort was &rsquo;lord&rsquo;, which quite matches his figure in the movie.</p>
+<p><figure><img src="https://zihanhuang1.github.io/Zihan_Academic_Website/images/Project1/Harry%20sentiment%20change.png"/>
+</figure>
+
+<figure><img src="https://zihanhuang1.github.io/Zihan_Academic_Website/images/Project1/Voldemort%20sentiment%20change.png"/>
+</figure>
+</p>
+<p>Above is the sentiment change through the movie for both main characters. We can see that even for harry, his sentiment from his narratives had more negative parts. However, compared to Voldemort, Harry&rsquo;s negative level was lower, as the most negative sentiment score for harry was close to -4, while for Voldemort it was nearly -12.</p>
+<figure><img src="https://zihanhuang1.github.io/Zihan_Academic_Website/images/Project1/sentiment%20movement%20comparison.png"/>
+</figure>
+
+<p>Next, we evaluated the overall sentiment for all the scripts through the movie. Under different sentiment lexicon, the script has different sentiment scores. However, both AFINN and Bing et al. lexicon showed a mostly negative scoring.</p>
+<ul class="pa0">
+  
+   <li class="list di">
+     <a href="https://zihanhuang1.github.io/Zihan_Academic_Website/tags/text-mining/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Text Mining</a>
+   </li>
+  
+   <li class="list di">
+     <a href="https://zihanhuang1.github.io/Zihan_Academic_Website/tags/social-network-analysis/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Social Network Analysis</a>
+   </li>
+  
+   <li class="list di">
+     <a href="https://zihanhuang1.github.io/Zihan_Academic_Website/tags/sentiment-analysis/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Sentiment Analysis</a>
+   </li>
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://zihanhuang1.github.io/Zihan_Academic_Website/" >
+    &copy;  Zihan Huang 2023 
+  </a>
+    <div>
+<div class="ananke-socials">
+  
+    
+    <a href="https://www.linkedin.com/in/zihan-huang-8018b622b/" target="_blank" rel="noopener" class="LinkedIn ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="LinkedIn link" aria-label="follow on LinkedIn——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+</div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>

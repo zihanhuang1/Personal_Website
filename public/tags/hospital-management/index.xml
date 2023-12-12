@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hospital Management on Zihan Huang</title>
+    <link>https://zihanhuang1.github.io/Zihan_Academic_Website/tags/hospital-management/</link>
+    <description>Recent content in Hospital Management on Zihan Huang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 06 Dec 2023 11:15:58 -0400</lastBuildDate>
+    <atom:link href="https://zihanhuang1.github.io/Zihan_Academic_Website/tags/hospital-management/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Project XIV: Research Project - St. Christopher&#39;s Hospital for Children Process Mapping Project</title>
+      <link>https://zihanhuang1.github.io/Zihan_Academic_Website/post/project-14/</link>
+      <pubDate>Wed, 06 Dec 2023 11:15:58 -0400</pubDate>
+      <guid>https://zihanhuang1.github.io/Zihan_Academic_Website/post/project-14/</guid>
+      <description>Date: April - June 2023&#xA;Right after I finished my master’s program, I worked as a research assistant with Dr. Hande Benson and Drexel Solutions Institute. We worked on a data analytics project aiming to help St. Christopher Hospital of Children in Philadelphia assess patient flow, examine opportunities for greater productivity and effectiveness to decrease LWOT (patients that leave without treatment), evaluate strategic opportunities and tools for staff communications about patients’ progress within the hospital system and streamline interrelated processes.</description>
+    </item>
+    <item>
+      <title>Project XIII: Cooper Hospital Stroke Process Analysis</title>
+      <link>https://zihanhuang1.github.io/Zihan_Academic_Website/post/project-13/</link>
+      <pubDate>Mon, 04 Dec 2023 11:15:58 -0400</pubDate>
+      <guid>https://zihanhuang1.github.io/Zihan_Academic_Website/post/project-13/</guid>
+      <description>Date: February - March 2023&#xA;This is a course project from my STAT-634 Quality &amp;amp; Six Sigma class, instructed by Dr. Edward Arnheiter.</description>
+    </item>
+  </channel>
+</rss>

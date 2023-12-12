@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Mining on Zihan Huang</title>
+    <link>https://zihanhuang1.github.io/Zihan_Academic_Website/tags/data-mining/</link>
+    <description>Recent content in Data Mining on Zihan Huang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 20 Nov 2023 11:15:58 -0400</lastBuildDate>
+    <atom:link href="https://zihanhuang1.github.io/Zihan_Academic_Website/tags/data-mining/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Project VI: Credit Risk Analysis on Mortgage Loan and Home Equity</title>
+      <link>https://zihanhuang1.github.io/Zihan_Academic_Website/post/project-6/</link>
+      <pubDate>Mon, 20 Nov 2023 11:15:58 -0400</pubDate>
+      <guid>https://zihanhuang1.github.io/Zihan_Academic_Website/post/project-6/</guid>
+      <description>Date: June - August 2022&#xA;This is a business consulting project in the summer 2022, advised by Dr. Murugan Anandarajan and Chelsey Hill. In the project, we have a client from the real estate industry presenting us with two datasets, one for mortgage loan and one for home equity.</description>
+    </item>
+    <item>
+      <title>Project V: A Data Mining Project on Telco Customer Churn Analysis</title>
+      <link>https://zihanhuang1.github.io/Zihan_Academic_Website/post/project-5/</link>
+      <pubDate>Sat, 18 Nov 2023 11:15:58 -0400</pubDate>
+      <guid>https://zihanhuang1.github.io/Zihan_Academic_Website/post/project-5/</guid>
+      <description>Date: April - June 2022&#xA;This is a class project from my STAT-642 Data Mining class, instructed by Dr. Chelsey Hill.</description>
+    </item>
+  </channel>
+</rss>
